@@ -9,3 +9,98 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.semaforo {
+    display: inline-block;
+    background-color: black;
+    border-radius: 15%;
+    padding: 15px;
+}
+
+
+.palito{
+    
+    
+    background-color: black;
+    height: 80px;
+    width: 60px;
+    
+}
+
+.red {
+    height: 300px;
+    width: 300px;
+    background-color: #4d0000; /* rojo oscuro, como luz apagada */
+    border-radius: 50%;
+    margin: 10px auto;
+    transition: all 0.3s ease;
+    box-shadow: none;
+    display: flex;
+  }
+
+
+
+
+  .yellow {
+    height: 300px;
+    width: 300px;
+    background-color: #998010; /* rojo oscuro, como luz apagada */
+    border-radius: 50%;
+    margin: 10px auto;
+    transition: all 0.3s ease;
+    box-shadow: none;
+    display: flex;
+  }
+
+
+  .green {
+    height: 300px;
+    width: 300px;
+    background-color: #056413; /* rojo oscuro, como luz apagada */
+    border-radius: 50%;
+    margin: 10px auto;
+    transition: all 0.3s ease;
+    box-shadow: none;
+    display: flex;
+  }
+
+
+.red-glow {
+    height: 300px;
+    width: 300px;
+    background-color: #fd4d4d; /* rojo vivo */
+    border-radius: 50%;
+    margin: 10px auto;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 20px 8px rgba(255, 0, 0, 0.6); /* el glow mágico */
+    display: flex;
+}
+
+.yellow-glow {
+    height: 300px;
+    width: 300px;
+    background-color: #fcd93c; /* rojo vivo */
+    border-radius: 50%;
+    margin: 10px auto;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 20px 8px rgba(255, 0, 0, 0.6); /* el glow mágico */
+    display: flex;
+}
+
+.green-glow {
+    height: 300px;
+    width: 300px;
+    background-color: #1eb234; /* rojo vivo */
+    border-radius: 50%;
+    margin: 10px auto;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 20px 8px rgba(255, 0, 0, 0.6); /* el glow mágico */
+    display: flex;
+}
